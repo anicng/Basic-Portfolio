@@ -1,11 +1,13 @@
 /* header = logo */
 header {
-    background: #78a1ff;
+    background: #55b8a2;
     position: fixed;
     left: 233px;
     top: 0px;
-    padding: 41px;
+    padding: 38px;
     z-index: 2;
+    color: #ffffff;
+    font-size: 20px;
 }
 
 .topnav {
@@ -30,7 +32,7 @@ header {
 }
 
 #contact_section {
-    background: #719cff;
+    background: #f2f2ed;
     position: relative;
     top: 120px;
     height: 500px;
@@ -43,7 +45,7 @@ h2 {
 }
 
 form {
-    background: pink;
+    background: f2f2ed;
     padding: 10px 30px 10px 30px;
     margin: 0 auto;
     width: 900px;
@@ -76,6 +78,11 @@ form {
     width: 100%;
     border-top: 5px solid #55b8a2;
     text-align: center;
+ }
+
+ #copyright {
+    position: absolute;
+    bottom: 0;
  }
 
  
