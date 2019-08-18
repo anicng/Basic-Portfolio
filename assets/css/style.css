@@ -1,0 +1,29 @@
+/* header = logo */
+header {
+    background: #78a1ff;
+    position: fixed;
+    left: 230px;
+    top: 0px;
+    padding: 41px;
+    z-index: 2;
+}
+
+#menu {
+    background: #c2c5cc;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+#contact_section {
+    background: #719cff;
+    position: relative;
+    top: 120px;
+    height: 500px;
+    width: 960px;
+    margin: 0 auto;
+}
