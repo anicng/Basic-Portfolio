@@ -9,7 +9,7 @@ header {
 }
 
 .topnav {
-    background: #c2c5cc;
+    background: #f2f2ed;
     position: fixed;
     left: 0px;
     top: 0px;
@@ -64,3 +64,18 @@ form {
     background-color: #55b8a2;
     padding: 15px 20px;
  }
+
+ footer {
+    background: #54544d;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 50px;
+    font-size: 10px;
+    color: #ffffff;
+    width: 100%;
+    border-top: 5px solid #55b8a2;
+    text-align: center;
+ }
+
+ 
