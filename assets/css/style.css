@@ -1,9 +1,9 @@
-/* header = logo */
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 100;
 }
 
+/* header = Name logo, over lap top navigation*/
 header {
     background: #55b8a2;
     position: fixed;
@@ -15,7 +15,7 @@ header {
     font-size: 20px;
 }
 
-.topnav {
+nav {
     background: #f2f2ed;
     position: fixed;
     left: 0px;
@@ -27,7 +27,7 @@ header {
     z-index: 1;
 }
 
-.topnav a {
+nav a {
     float: right;
     position: relative;
     right: 220px;
@@ -36,6 +36,26 @@ header {
     padding: 20px;
     color: #54544d;
 }
+
+footer {
+    background: #54544d;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 50px;
+    font-size: 10px;
+    color: #ffffff;
+    width: 100%;
+    border-top: 5px solid #55b8a2;
+    text-align: center;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 5px;
+}
+
+/* Contact Page */
 
 #contact_section {
     background: #f2f2ed;
@@ -82,20 +102,14 @@ button {
     left: 1px;
 }
 
-footer {
-    background: #54544d;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    height: 50px;
-    font-size: 10px;
-    color: #ffffff;
-    width: 100%;
-    border-top: 5px solid #55b8a2;
-    text-align: center;
-}
+/* Portfolio Page */
 
-#copyright {
-    position: absolute;
-    bottom: 0;
+.portfolio_section {
+    background: #f2f2ed;
+    position: relative;
+    top: 100px;
+    height: 500px;
+    width: 960px;
+    margin: 0 auto;
+    color: #55b8a2;
 }
