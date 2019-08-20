@@ -39,7 +39,7 @@ nav a {
 
 footer {
     background: #54544d;
-    position: fixed;
+    position: relative;
     bottom: 0px;
     left: 0px;
     height: 50px;
@@ -108,8 +108,12 @@ button {
     background: #f2f2ed;
     position: relative;
     top: 100px;
-    height: 500px;
+    height: auto;
     width: 960px;
     margin: 0 auto;
     color: #55b8a2;
+}
+
+img {
+    margin: 20px;
 }
