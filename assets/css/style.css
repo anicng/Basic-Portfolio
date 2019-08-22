@@ -117,3 +117,29 @@ button {
 img {
     margin: 20px;
 }
+
+/* About Page (index.html) */
+
+#about_section {
+    background: #f2f2ed;
+    position: relative;
+    top: 100px;
+    height: auto;
+    width: 960px;
+    margin: 0 auto;
+    color: #55b8a2;
+}
+
+p {
+    color: #000000;
+
+}
+
+#aboutpic {
+    float: left;
+}
+
+article {
+    padding: 10px;
+    margin-right: 5px;
+}
