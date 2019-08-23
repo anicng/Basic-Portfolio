@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 100;
+    font-weight: 500;
     position: relative;
     top: 0;
     bottom: 0;
@@ -87,6 +87,7 @@ footer {
 
 #title {
     padding: 30px 20px 0px 30px;
+    color: #55b8a2
 }
 
 form {
@@ -125,10 +126,10 @@ button {
 .portfolio_section {
     background: #f2f2ed;
     position: relative;
-    top: 100px;
-    height: auto;
-    width: 960px;
+    width: 80%;
     margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     color: #55b8a2;
 }
 
@@ -141,10 +142,10 @@ img {
 #about_section {
     background: #f2f2ed;
     position: relative;
-    top: 100px;
-    height: auto;
-    width: 960px;
+    width: 80%;
     margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     color: #55b8a2;
 }
 
