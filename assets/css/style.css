@@ -1,18 +1,31 @@
+html {
+    min-height: 100%;
+}
+
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 100;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 /* header = Name logo, over lap top navigation*/
 header {
     background: #55b8a2;
-    position: fixed;
-    left: 240px;
-    top: 0px;
-    padding: 35px 30px;
+    position: relative;
+    left: 10vw;
+    /* top: 0; */
+    height: 10vh;
+    /* padding: 10px 0px 0px 0px; */
+    width: 20vw;
     z-index: 2;
     color: #ffffff;
     font-size: 20px;
+    text-align: center;
+    line-height: 10vh;
 }
 
 nav {
@@ -20,9 +33,9 @@ nav {
     position: fixed;
     left: 0px;
     top: 0px;
-    height: 93px;
+    height: 10vh;
     width: 100%;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     font-size: 17px;
     z-index: 1;
 }
@@ -30,26 +43,27 @@ nav {
 nav a {
     float: right;
     position: relative;
-    right: 220px;
+    right: 10vw;
     font-size: 20px;
-    line-height: 60px;
-    padding: 20px;
+    line-height: 6vh;
+    padding: 20px 10px 15px 10px;
     color: #54544d;
 }
 
 nav a:link {
     text-decoration: none;
-  }
+}
 
 footer {
     background: #54544d;
     position: relative;
-    bottom: 0px;
-    left: 0px;
-    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
     font-size: 10px;
     color: #ffffff;
     width: 100%;
+    height: 5vh;
     border-top: 5px solid #55b8a2;
     text-align: center;
 }
@@ -64,23 +78,24 @@ footer {
 #contact_section {
     background: #f2f2ed;
     position: relative;
-    top: 100px;
-    height: 500px;
     width: 80%;
     margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     color: #55b8a2;
 }
 
-h2 {
+#title {
     padding: 30px 20px 0px 30px;
+    color: #55b8a2
 }
 
 form {
     background: f2f2ed;
     padding: 10px 30px 10px 25px;
     margin: 0 auto;
-    width: 80%;
-    height: 392px;
+    width: auto;
+    height: auto;
     color: #54544d;
 }
 
@@ -111,10 +126,10 @@ button {
 .portfolio_section {
     background: #f2f2ed;
     position: relative;
-    top: 100px;
-    height: auto;
-    width: 960px;
+    width: 80%;
     margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     color: #55b8a2;
 }
 
@@ -127,10 +142,10 @@ img {
 #about_section {
     background: #f2f2ed;
     position: relative;
-    top: 100px;
-    height: auto;
-    width: 960px;
+    width: 80%;
     margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     color: #55b8a2;
 }
 
