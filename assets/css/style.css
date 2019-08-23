@@ -1,5 +1,6 @@
 html {
     min-height: 100%;
+    /* min-width: 630px; */
 }
 
 body {
@@ -15,9 +16,9 @@ body {
 /* header = Name logo, over lap top navigation*/
 header {
     background: #55b8a2;
-    position: relative;
+    position: fixed;
     left: 10vw;
-    /* top: 0; */
+    top: 0;
     height: 10vh;
     /* padding: 10px 0px 0px 0px; */
     width: 20vw;
@@ -80,7 +81,7 @@ footer {
     position: relative;
     width: 80%;
     margin: 0 auto;
-    margin-top: 2vh;
+    margin-top: 12vh;
     margin-bottom: 2vh;
     color: #55b8a2;
 }
@@ -128,7 +129,7 @@ button {
     position: relative;
     width: 80%;
     margin: 0 auto;
-    margin-top: 2vh;
+    margin-top: 12vh;
     margin-bottom: 2vh;
     color: #55b8a2;
 }
@@ -144,7 +145,7 @@ img {
     position: relative;
     width: 80%;
     margin: 0 auto;
-    margin-top: 2vh;
+    margin-top: 12vh;
     margin-bottom: 2vh;
     color: #55b8a2;
 }
