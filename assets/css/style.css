@@ -37,6 +37,10 @@ nav a {
     color: #54544d;
 }
 
+nav a:link {
+    text-decoration: none;
+  }
+
 footer {
     background: #54544d;
     position: relative;
@@ -62,7 +66,7 @@ footer {
     position: relative;
     top: 100px;
     height: 500px;
-    width: 960px;
+    width: 80%;
     margin: 0 auto;
     color: #55b8a2;
 }
@@ -75,7 +79,7 @@ form {
     background: f2f2ed;
     padding: 10px 30px 10px 25px;
     margin: 0 auto;
-    width: 900px;
+    width: 80%;
     height: 392px;
     color: #54544d;
 }
