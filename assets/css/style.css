@@ -88,7 +88,9 @@ footer {
 
 #title {
     padding: 30px 20px 0px 30px;
-    color: #55b8a2
+    font-size: 3vh;
+    color: #55b8a2;
+    
 }
 
 form {
@@ -144,15 +146,18 @@ img {
     background: #f2f2ed;
     position: relative;
     width: 80%;
+    height: auto;
     margin: 0 auto;
     margin-top: 12vh;
     margin-bottom: 2vh;
     color: #55b8a2;
 }
+.about_article {
+    line-height: 3vh;
+}
 
 p {
     color: #000000;
-
 }
 
 #aboutpic {
