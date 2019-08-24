@@ -138,6 +138,16 @@ button {
     left: 1px;
 }
 
+button:hover {
+    background-color: #4ca18f;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    left: 1px;
+}
+
 /* Portfolio Page */
 
 .portfolio_section {
