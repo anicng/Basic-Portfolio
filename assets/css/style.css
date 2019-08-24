@@ -27,6 +27,8 @@ header {
     font-size: 20px;
     text-align: center;
     line-height: 10vh;
+    overflow: hidden;
+
 }
 
 nav {
@@ -136,8 +138,8 @@ button {
     color: #55b8a2;
 }
 
-img {
-    margin: 20px;
+.portfolio_img {
+    margin: 20px 0px 0px 60px ;
 }
 
 /* About Page (index.html) */
@@ -167,4 +169,8 @@ p {
 article {
     padding: 10px;
     margin-right: 5px;
+}
+
+img {
+    margin: 20px;
 }
