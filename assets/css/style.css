@@ -53,6 +53,16 @@ nav a {
     color: #54544d;
 }
 
+nav a:hover {
+    float: right;
+    position: relative;
+    right: 10vw;
+    font-size: 20px;
+    line-height: 6vh;
+    padding: 20px 10px 15px 10px;
+    color: #55b8a2;
+}
+
 nav a:link {
     text-decoration: none;
 }
